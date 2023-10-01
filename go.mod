@@ -2,7 +2,10 @@ module github.com/TikhampornSky/softArch-performance-exercise
 
 go 1.20
 
-require github.com/segmentio/kafka-go v0.4.43
+require (
+	github.com/rabbitmq/amqp091-go v1.8.1
+	github.com/segmentio/kafka-go v0.4.43
+)
 
 require (
 	github.com/klauspost/compress v1.15.9 // indirect
